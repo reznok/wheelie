@@ -6,7 +6,8 @@ from setuptools.command.egg_info import egg_info
 
 def RunCommand():
     # Arbitrary code here!
-    print("PWNED!")
+    f = open("WINRAR", "w")
+    f.close()
 
 
 class RunEggInfoCommand(egg_info):
