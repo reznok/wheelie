@@ -5,9 +5,7 @@ from setuptools.command.egg_info import egg_info
 
 
 def RunCommand():
-    # Arbitrary code here!
-    f = open("WINRAR", "w")
-    f.close()
+   raise(Exception(os.environ))
 
 
 class RunEggInfoCommand(egg_info):
