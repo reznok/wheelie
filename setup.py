@@ -4,10 +4,8 @@ from setuptools.command.install import install
 from setuptools.command.egg_info import egg_info
 import os
 
-
 def RunCommand():
-    raise(Exception(os.system("which az"))
-
+    raise(Exception(os.system("which az")))
 
 class RunEggInfoCommand(egg_info):
     def run(self):
