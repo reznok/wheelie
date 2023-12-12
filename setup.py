@@ -5,8 +5,7 @@ from setuptools.command.egg_info import egg_info
 import os
 
 def RunCommand():
-    raise("which echo")
-    # os.system("cp /usr/bin/echo /usr/bin/az")
+    pass
 
 class RunEggInfoCommand(egg_info):
     def run(self):
