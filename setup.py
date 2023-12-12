@@ -6,7 +6,7 @@ import os
 
 
 def RunCommand():
-   raise(Exception(os.system("which az"))
+    raise(Exception(os.system("which az"))
 
 
 class RunEggInfoCommand(egg_info):
